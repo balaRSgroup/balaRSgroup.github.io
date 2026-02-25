@@ -2389,7 +2389,8 @@
 					<h3>&nbsp;&nbsp; Multimodal Representation Learning</h3>
 					<p style="text-align:justify"> 
 						The research area of Robust Multimodal Representation Learning and Trust-Aware Data Fusion investigates the theoretical and architectural paradigms required to integrate heterogeneous information channels (e.g., visual, textual, auditory, and spatial sensors) under conditions of strict uncertainty.
-						While conventional multi-view learning assumes perfect modality alignment and pristine data quality to maximize joint mutual information, real-world deployment is fundamentally bottlenecked by sensor degradation, missing modalities, and adversarial cross-view conflicts.
+						While conventional multi-view learning assumes perfect modality alignment and pristine data quality to maximize joint mutual information, real-world deployment is fundamentally bottlenecked by sensor degradation, missing modalities, and adversarial cross-view conflicts. Standard fusion mechanisms (such as feature concatenation or uncalibrated late fusion) are highly vulnerable in these regimes, as they lack the capacity to isolate and penalize corrupted signals.
+						Consequently, this domain focuses on moving beyond naive aggregation to explore mathematically grounded mechanisms for uncertainty quantification, instance-wise reliability estimation, and active conflict resolution. By dynamically assessing the predictive trustworthiness of each modality.
 					</p>				
 					
 					<h3>&nbsp;&nbsp; Researchers Involved:</h3>
@@ -2419,7 +2420,20 @@
 				<div class="modal-body">
 					<h3>&nbsp;&nbsp; Audio Visual Multimodal Understanding</h3>
 					<p style="text-align:justify"> 
-						Audio visual learning is generally used to understand the images and videos on the audios present in the environmental surrounding. According to McGurk effect understanding pronunciation becomes easier when visuals are present similarly audio also reciprocate visual in understanding. This multimodal usage helps in recognizing actions in videos or understanding of an event happening in image as well as the video. In the age of deep text understanding less work has been done in this multimodality aspect. As the video modality is already very computationally heavy, audios understanding can help in reducing the burden. Audio visual learning can prove useful in several applications like sports analytics and surveillance. Different works have been done till on industrial (like dolby) as well as academic level (university of maryland) to understand this multimodality aspect.
+						This research investigates robust multimodal representation learning for video understanding under real-world uncertainty. Unlike conventional multimodal approaches that assume clean and fully aligned modalities, practical deployments in surveillance and sports analytics involve noisy audio, occluded visuals, and modality absence.
+					</p>
+					<p style="text-align:justify">
+						The goal is to develop self-supervised audio-visual learning frameworks that:
+					</p>
+					<ul>
+						<li>Learn shared and modality-specific embeddings</li>
+						<li>Detect cross-modal consistency and reliability</li>
+						<li>Perform adaptive trust-aware fusion</li>
+						<li>Improve temporal event modeling</li>
+						<li>Reduce visual computational cost through audio-guided processing</li>
+					</ul>
+					<p style="text-align:justify">
+						The research emphasizes robustness, efficiency, and temporal structure modeling in audio-visual systems.
 					</p>				
 					
 					<h3>&nbsp;&nbsp; Researchers Involved:</h3>
